@@ -1,0 +1,219 @@
+/*
+Theme Name: Crowl
+Theme URI: https://burgerthemes.com/crowl-free/
+Author: burgersoftware
+Author URI: https://burgerthemes.com/
+Description: Crowl is a creative, clean, and unique responsive Multipurpose Business WordPress Theme. It is the perfect starting point for your creative business. It is built on a mobile-first approach rendering extraordinary-looking websites both on mobile as well as on desktop devices. It's a very clean and easy-to-use theme with many features. Checkout Pro Version https://burgerthemes.com/demo/pro/crowl/
+Template: owlpress
+Version: 1.0.4
+Tested up to: 6.0
+Requires PHP: 5.6
+License: GPLv3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: crowl
+Slug: crowl
+Tags: one-column, two-columns, left-sidebar, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, footer-widgets, full-width-template, theme-options, threaded-comments, translation-ready, blog, grid-layout, portfolio, photography
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+
+:root {
+    --bs-primary:#fab701;
+    --bs-primary-dark:#d79d00;
+    --bs-primary-light: #f9faf7;
+    --bs-primary-shadow:rgb(0 123 255 / 0.5);
+    --bs-secondary:#151111;
+    --bs-secondary-dark: #222222;
+}
+
+.header-two .is-sticky-menu,
+.header-two .main-mobile-nav {
+    background: #fff;
+}	
+
+.header-two .main-navigation .main-navbar .main-menu > li.menu-item:not(.focus):not(.active):not(:hover) > a:not(:focus):not(:hover) {
+    color: var(--bs-secondary);
+}
+
+.header-two .above-header .header-widget {
+    background-color: rgba(0, 0, 0, 0.3);
+	border-bottom: 1px solid rgba(108, 117, 125, 0.32);
+	border-radius: 0;
+}
+
+.header-two .main-navigation:not(.is-sticky-menu ) .widget_social_widget li a {
+    border: none;
+}
+
+.header-two .above-header .contact-area .contact-icon {
+    background-color: #e3f5cc;
+    width: 33px;
+    height: 33px;
+    overflow: inherit;
+}
+
+.header-two .above-header .contact-area .contact-icon .circles-spin {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    border-radius: 100%;
+    -webkit-animation: spinReverse 30s linear infinite;
+    animation: spinReverse 30s linear infinite;
+}
+
+.header-two .above-header .contact-area .contact-icon .circle-one {
+    position: absolute;
+    top: 23px;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: var(--bs-primary);
+}
+
+.header-two .above-header .contact-area .contact-icon .circle-two {	
+	position: absolute;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: var(--bs-primary);
+}
+
+
+.main-header .widget_nav_menu .sub-menu, 
+.main-navbar .dropdown-menu {
+    z-index: 999;
+}	
+/*=====  Team =====*/
+
+.our-team {
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.our-team .team-img img {
+    transition: all 0.4s cubic-bezier(.645,.045,.355,1);
+}
+
+.our-team:hover .team-img img,
+.our-team:focus-within .team-img img {
+    filter: blur(2px);
+}
+
+.our-team .team-info {
+    position: absolute;
+    bottom: -38%;
+    left: 0;
+    right: 0;
+    width: 86%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+    z-index: 0;
+    color: #fff;    
+    transition: all 0.4s cubic-bezier(.645,.045,.355,1);
+}
+
+.our-team .team-info:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bs-primary);
+    border-radius: 50%;
+    transform: translate(-50%, 0);
+    transition: all 0.4s cubic-bezier(.645,.045,.355,1);
+    z-index: -1;
+}
+
+.our-team:hover .team-info,
+.our-team:focus-within .team-info {
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+}
+
+.our-team:hover .team-info:before,
+.our-team:focus-within .team-info:before {
+    width: 250%;
+    height: 250%;
+    opacity: 0.8;
+    border-radius: 0%;
+}
+
+.team-heading {
+    padding: 10px 10px 0;
+}
+
+.our-team .team-info h5 {
+    font-size: 25px;
+}
+
+.our-team .team-info h5 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.our-team .team-info span {
+    transition: all 0.4s cubic-bezier(.645,.045,.355,1);
+}
+
+.our-team:hover .team-info span,
+.our-team:focus-within .team-info span {
+    color: var(--bs-secondary);
+}
+
+.our-team .team-info .team-content {
+    margin-top: 25px;
+}
+
+.our-team .team-info li a {
+    background-color: #fff;
+    color: var(--bs-yellow);
+}
+
+.our-team .team-info li a:hover i,
+.our-team .team-info li a:focus i {
+    color: var(--bs-primary);
+    background-color: var(--bs-secondary);
+}
+
+.item-row {
+    width: 100%;
+    overflow-x: auto;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+}
+
+.item-row .mCSB_container {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.item-row .item {
+    flex-basis: 336px;
+    max-width: 336px;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x)/ 2);
+    margin-top: var(--bs-gutter-y);
+}
+
+.item-row .mCSB_container .item {
+    padding-bottom: 27px;
+}
+/*===== // =====*/

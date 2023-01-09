@@ -1,0 +1,57 @@
+# Translation of Themes - Crowl in Portuguese (Brazil)
+# This file is distributed under the same license as the Themes - Crowl package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-06-13 15:23:09+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Themes - Crowl\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Crowl is a creative, clean, and unique responsive Multipurpose Business WordPress Theme. It is the perfect starting point for your creative business. It is built on a mobile-first approach rendering extraordinary-looking websites both on mobile as well as on desktop devices. It's a very clean and easy-to-use theme with many features. Checkout Pro Version https://burgerthemes.com/demo/pro/crowl/"
+msgstr "Crowl é um tema WordPress de negócios multiuso responsivo criativo, limpo e exclusivo. É o ponto de partida perfeito para o seu negócio criativo. Ele é construído em uma abordagem mobile-first, renderizando sites de aparência extraordinária tanto em dispositivos móveis quanto em desktops. É um tema muito limpo e fácil de usar, com muitos recursos. Versão Pro do Checkout https://burgerthemes.com/demo/pro/crowl/"
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Crowl"
+msgstr "Crowl"
+
+#: inc/customizer/customizer-pro/class-customize.php:76
+msgid "Get More Features in Crowl Pro"
+msgstr "Obtenha mais recursos no Crowl Pro"
+
+#: template-parts/sections/section-header.php:132
+msgid "Header Above Collapse"
+msgstr "Retrair cabeçalho de cima"
+
+#: template-parts/sections/section-header.php:128
+msgid "Header Close Menu"
+msgstr "Cabeçalho Fechar Menu"
+
+#: template-parts/sections/section-header.php:119
+msgid "Menu Collaped"
+msgstr "Recolher Menu"
+
+#: header.php:17
+msgid "Skip to content"
+msgstr "Pular para o conteúdo"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://burgerthemes.com/crowl-free/"
+msgstr "https://burgerthemes.com/crowl-free/"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://burgerthemes.com/"
+msgstr "https://burgerthemes.com/"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "burgersoftware"
+msgstr "burgersoftware"
